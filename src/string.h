@@ -11,6 +11,7 @@ struct String8 {
 	usize size;
 };
 
-bool 	str8_match		(String8 s1, String8 s2);
+String8 str8		(char *str, usize size);
+bool 	str8_match	(String8 s1, String8 s2);
 
 #endif
